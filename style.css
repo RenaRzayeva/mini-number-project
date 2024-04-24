@@ -1,0 +1,89 @@
+
+  body {
+    width: 800px;
+    height: 600px;
+    border: 1px solid red; 
+    text-align: center;
+    margin-left: 30%;
+    padding-bottom: 0;
+    background-color: green;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    box-sizing: content-box;
+    position: static;
+    z-index: 2;
+    
+} 
+p{
+    /* display: none; */
+     margin-left:100px ;
+    margin-right: 100px;
+    text-align: center;
+
+   }
+   /* .big{
+    width: 800px;
+    height: 300px;
+    border: 1px solid red;
+   } */
+.small{
+    width: 300px;
+    height: 3%;
+    background-color: aqua;
+    animation-name: example;
+  animation-duration: 0.5s;
+  animation-direction: reverse;
+  display: block;
+
+
+}
+
+.small1{
+    width: 300px;
+    height: 3%;
+    background-color: aqua;
+    animation-name: example1;
+    animation-duration: 0.5s;
+    animation-direction: reverse;
+    opacity: 1;
+    display: block;
+}
+
+    
+
+
+ 
+@keyframes example {
+    from {
+        transform: translateX(0); 
+    }
+    to {
+        transform: translateX(30%);
+        opacity: 1;
+    }
+}
+
+@keyframes example1 {
+    from {
+        transform: translateX(0); 
+    }
+    to {
+        transform: translateX(-30%);
+        opacity: 1;
+    }
+} ы
+
+/* body{
+    width: 800px;
+    height: 800px;
+    border: 1px solid red;
+    text-align: center;
+    margin-left: 30%;
+    padding-bottom: 0;
+background-color: green;
+display: flex;
+flex-direction: column-reverse;
+align-items: center;
+} */
+
